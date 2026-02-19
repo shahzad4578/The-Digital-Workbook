@@ -46,3 +46,9 @@ OROP  22  // ACC = 8 | RAM[22] (6) = 14
 SUB   11  // ACC = 14 - RAM[11] (3) = 11
 STORE 13  // RAM[13] = 11
 JMP   8   // Jump to self (Halt)
+
+## FPGA Implementation
+This processor design was successfully synthesized, implemented, and tested on hardware using a **[Insert FPGA Board Name]** FPGA. 
+
+* **Synthesis Tool:** **[Insert Tool, e.g., Xilinx Vivado / Intel Quartus]**
+* **Hardware Validation:** The processor's execution loop was verified on-chip. The `out` register (Accumulator state) was mapped to onboard LEDs, allowing real-time observation of the program's execution through its arithmetic and memory operations. 
